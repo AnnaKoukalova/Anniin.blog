@@ -1,7 +1,6 @@
 {
   "name": "anniin.blog",
   "version": "1.0.0",
-  "description": "",
   "main": ".eleventy.js",
   "dependencies": {
     "a-sync-waterfall": "^1.0.1",
@@ -196,9 +195,10 @@
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "serve" : "npx @11ty/eleventy --serve"
+    "serve": "npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
