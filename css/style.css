@@ -1,1 +1,10 @@
-/*# sourceMappingURL=style.css.map */
+body {
+    font-style: Kreon , serif;
+    background-color: beige;
+
+}
+
+h1 {
+    font-style: Jacques Francois Shadow , serif ;
+    background-image: inherit;
+}
