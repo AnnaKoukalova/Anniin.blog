@@ -1,10 +1,16 @@
 body {
-    font-style: Kreon , serif;
+    font-style: 'Kreon' , serif;
     background-color: beige;
-
+    font-size: 13px;
+    line-height: 1.5;
 }
 
 h1 {
-    font-style: Jacques Francois Shadow , serif ;
-    background-image: inherit;
+    font-style: 'Jacques Francois Shadow' , serif ;
+    font-size: 36px;
+}
+
+.hlavicka {
+    background-image:url(/image/nemuzuzit.jpg);
+    
 }
