@@ -48,3 +48,11 @@ h1 {
 .menu__link:hover {
 	background-color: var(--accent);
 }
+
+.knihovna {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    }
