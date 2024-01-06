@@ -1,11 +1,50 @@
 body {
-    font-style: Kreon , serif;
+    font-style: 'Kreon' , serif;
     background-color: beige;
     font-size: 13px;
-    
+    line-height: 1.5;
 }
 
 h1 {
-    font-style: Jacques Francois Shadow , serif ;
-    
+    font-style: 'Jacques Francois Shadow' , serif ;
+    font-size: 36px;
+}
+
+.hlavicka {
+    background-image:url(/image/nemuzuzit.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.menu__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.menu__item {
+	margin: 0;
+	padding: 0;
+}
+
+.menu__item:not(:last-child) {
+	border-right: 1px solid var(--grey-900);
+}
+
+.menu__link {
+	display: block;
+	padding: var(--spacer-half) var(--spacer);
+	font-family: var(--font-special);
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.menu__link:hover {
+	background-color: var(--accent);
 }
