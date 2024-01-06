@@ -54,5 +54,4 @@ h1 {
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
     grid-auto-rows: 200px;
-    grid-auto-columns: 200px;
-    }
+}
